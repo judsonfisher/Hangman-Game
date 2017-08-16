@@ -1,0 +1,24 @@
+Variables:
+
+var userChoices
+var userGuess
+var wins
+var losses
+var remainingGuesses
+
+
+
+Steps:
+
+1. Resets page
+2. Computer chooses random word from array
+3. Computer matches length of word with spaces
+4. User presses key
+5. CPU checks for duplicate entry
+6. CPU matches key with letters in chosen word
+7. If yes, reveal letter and placement
+8. If no, reduce available guesses by one
+9. Show image
+9. Add +1 to wins if user guesses word
+10. Add +1 to losses if users guesses reach 0
+11. Reset page
